@@ -1,0 +1,4 @@
+Main Features:
+-Added backend database support through Firebase
+-Display user info from database at the top of the page
+-Added CHANGELOG to GitHub repository

@@ -12,6 +12,8 @@ import { PlayersComponent } from './players/players.component';
 import { DraftComponent } from './draft/draft.component';
 import { LeagueComponent } from './league/league.component';
 import { MatchupsComponent } from './matchups/matchups.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { MatchupsComponent } from './matchups/matchups.component';
     PlayersComponent,
     DraftComponent,
     LeagueComponent,
-    MatchupsComponent
+    MatchupsComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
