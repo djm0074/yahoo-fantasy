@@ -14,6 +14,7 @@ import { LeagueComponent } from './league/league.component';
 import { MatchupsComponent } from './matchups/matchups.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info.component';
+import { PlayerRowComponent } from './player-row.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { UserInfoComponent } from './user-info.component';
     DraftComponent,
     LeagueComponent,
     MatchupsComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    PlayerRowComponent
   ],
   imports: [
     BrowserModule,

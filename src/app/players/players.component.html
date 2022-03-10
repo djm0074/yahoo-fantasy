@@ -1,1 +1,19 @@
-<h1>PLAYERS</h1>
+<p *ngIf="players == undefined">Failed fetching players</p>
+<div *ngIf="players != undefined">
+    <div *ngFor="let player of players">
+        <div class="container-fluid">
+            <div class="d-flex flex-row justify-content-between">
+                <div class="flex-column">
+                    Position: {{player.Position}}
+                </div>
+                <div class="flex-column">
+                    Name: {{player.Name}}
+                </div>
+                <div class="flex-column">
+                    NFL Team: {{player.Team}}
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
