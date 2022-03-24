@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/yahoo-fantasy",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
